@@ -35,3 +35,21 @@ alert(tweetUnder140);
 alert(prompt("Compose your tweet:").slice(0, 140));
 
 
+// Turning the first Letter of a word to upper case
+// function word.toUpperCase();
+
+// 1 Create a var that store the name that user enters via prompt
+var name = prompt("What is your name?");
+
+// 2 Capitalise the first letter of their Name
+// a - isolate the first character
+var firstChar = name.slice(0,1);
+// b - Turn the first char to upper case
+var upperCaseFirstChar = firstChar.toUpperCase();
+// c - isolate the rest of their name
+var restOfName = name.slice(1,name.length);
+// d - concatenate the first char with the rest of the char
+var capitalisedName = upperCaseFirstChar + restOfName;
+
+// 3 We use the capitalised version of their name to greet them using an alert
+alert("Hello " + capitalisedName);
