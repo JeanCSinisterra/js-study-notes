@@ -31,3 +31,7 @@ var tweet = prompt("Compose your tweet:");
 var tweetUnder140 = tweet.slice(0, 140);
 alert(tweetUnder140);
 
+// this is another way to do the same thing as before
+alert(prompt("Compose your tweet:").slice(0, 140));
+
+
