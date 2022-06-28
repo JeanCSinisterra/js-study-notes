@@ -53,3 +53,10 @@ var capitalisedName = upperCaseFirstChar + restOfName;
 
 // 3 We use the capitalised version of their name to greet them using an alert
 alert("Hello " + capitalisedName);
+
+
+// Basic Arithmetic & the module Operator in Javascritp
+// Dog Age to Human Age foromula to practice this principle
+humanAge = (dogAge - 2) * 4 + 21;
+var dogAge = 3;
+alert("The human age of your dog is " + humanAge);
