@@ -62,3 +62,25 @@ humanAge = ((dogAge - 2) * 4) + 21;
 alert("The human age of your dog is " + humanAge);
 
 
+/* The main lesson here is being able to accept inputs inside
+the Parentheses of the function. */ 
+/*Also, I'm using Math.floor() to make round the numbers of
+a division. */
+// Creating a function. 
+function getMilk(money) {
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveRight");
+
+    var numberOfBottles = Math.floor(money/1.5);
+
+    console.log("Buy " + numberOfBottles + " bottles of Milk")
+
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("enterHouse");
+}
+// Calling the function, you just have to write. 
+getMilk(5);// Buy 3 bottles of Milk
+
