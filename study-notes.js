@@ -34,7 +34,6 @@ alert(tweetUnder140);
 // this is another way to do the same thing as before
 alert(prompt("Compose your tweet:").slice(0, 140));
 
-
 // Turning the first Letter of a word to upper case
 // function word.toUpperCase();
 
@@ -83,4 +82,17 @@ function getMilk(money) {
 }
 // Calling the function, you just have to write. 
 getMilk(5);// Buy 3 bottles of Milk
+
+
+// Let's calculate the years, months & weeks you left with a function.
+function lifeInWeeks(age) {
+
+yearsRemaning=(90-age);
+ageDays= (90-age)*365;
+ageMonth= yearsRemaning*12;
+ageWeek= yearsRemaning*52;
+}
+var n = prompt("Enter Your Age ");
+lifeInWeeks(n);
+alert("You have "+ageDays+" Days or "+ageMonth+" Months or "+ageWeek+" weeks left to live");
 
