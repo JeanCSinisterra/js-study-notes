@@ -85,14 +85,14 @@ getMilk(5);// Buy 3 bottles of Milk
 
 
 // Let's calculate the years, months & weeks you left with a function.
+// Let's calculate the years, months & weeks you left with a function.
 function lifeInWeeks(age) {
+    var yearsRemaning = 90 - age;
+    var days = yearsRemaning * 365;
+    var weeks = yearsRemaning * 52;
+    var months = yearsRemaning * 12;
 
-yearsRemaning=(90-age);
-ageDays= (90-age)*365;
-ageMonth= yearsRemaning*12;
-ageWeek= yearsRemaning*52;
+    console.log("You have " + days + " days, " + weeks + " weeks, and " + months + " months left");
 }
-var n = prompt("Enter Your Age ");
-lifeInWeeks(n);
-alert("You have "+ageDays+" Days or "+ageMonth+" Months or "+ageWeek+" weeks left to live");
-
+lifeInWeeks(27);
+// You have 22995 days, 3276 weeks, and 756 months left
