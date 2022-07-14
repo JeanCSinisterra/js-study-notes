@@ -94,5 +94,22 @@ function lifeInWeeks(age) {
 
     console.log("You have " + days + " days, " + weeks + " weeks, and " + months + " months left");
 }
-lifeInWeeks(27);
-// You have 22995 days, 3276 weeks, and 756 months left
+lifeInWeeks(27); // You have 22995 days, 3276 weeks, and 756 months left
+
+
+// This calculation is to see the probability of getting married with your Couple. 
+var myName = prompt("What's your name?");
+var coupleName = prompt("What's the name of your Couple?")
+var loveCalculator = Math.random();
+
+loveCalculator = loveCalculator * 100;
+loveCalculator = Math.floor(loveCalculator) + 1;
+
+// Using if-else conditions & Logic
+
+if (loveCalculator > 70) {
+    alert("The probabilty of getting married with " + coupleName + " is " + loveCalculator + " %." + "and you'all will love each other to the end of times");
+}
+ else {
+     alert("The probabilty of getting married with " + coupleName + " is " + loveCalculator + " %." + "And probably you will break up after having a discussion about Peanut butter, LOL.");
+ } 
