@@ -196,3 +196,13 @@ var colegas = (names[random]);
 return colegas + " is going to buy lunch today!";
 }
 console.log (whosPaying(["Jean", "Carlo", "Vesna", "Valeska", "Katherine", "Nicole", "Jesus", "Alberto", "David", "Sammuel"]) );
+
+// While & For loops
+// State
+while ("something is true") {
+    // Do something
+}
+// Iterate
+for (i=0; i<2; i++) {
+    //Do something
+}
