@@ -181,3 +181,11 @@ else {
 count++; 
     console.log(output);
 }
+
+// #2 Random Selection to see who will pay the Lunch
+function whosPaying(names) {
+var random = Math.floor(Math.random() * names.length);    
+var colegas = (names[random]);
+return colegas + " is going to buy lunch today!";
+}
+console.log (whosPaying(["Angela", "Nicole", "Emre", "Jun", "Kuromi"]) );
