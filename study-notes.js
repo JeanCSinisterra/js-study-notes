@@ -160,6 +160,16 @@ if (bmi >= 25) {
 
 bmiCalculator(63,1.65);
 
+// While & For loops
+// State
+while ("something is true") {
+    // Do something
+}
+// Iterate
+for (i=0; i<2; i++) {
+    //Do something
+}
+
 // Here are a serie of popular Coding Challenges.
 // #1 FizzBuzz
 var output = [];
@@ -197,12 +207,34 @@ return colegas + " is going to buy lunch today!";
 }
 console.log (whosPaying(["Jean", "Carlo", "Vesna", "Valeska", "Katherine", "Nicole", "Jesus", "Alberto", "David", "Sammuel"]) );
 
-// While & For loops
-// State
-while ("something is true") {
-    // Do something
+// #3 Fibonacci Challenge
+function fibonacciGenerator (n) {
+//Do NOT change any of the code above 👆
+    
+    //Write your code here:
+    var output = [];
+    if (n ===1) {
+        output = [0];
+    }
+    else if (n === 2 ) {
+        output = [0,1];
+    }
+    else {
+        output = [0,1];
+        
+        for (var i = 2; i < n; i++) {
+            output.push(output[output.length - 2] + output[output.length - 1]); //[0,1,1]
+        }
+    }
+    return output;
+    
+    //Return an array of fibonacci numbers starting from 0.
+    
+//Do NOT change any of the code below 👇
 }
-// Iterate
-for (i=0; i<2; i++) {
-    //Do something
-}
+output = fibonacciGenerator(3);
+console.log(output);
+
+
+
+
