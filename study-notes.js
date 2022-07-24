@@ -188,4 +188,4 @@ var random = Math.floor(Math.random() * names.length);
 var colegas = (names[random]);
 return colegas + " is going to buy lunch today!";
 }
-console.log (whosPaying(["Angela", "Nicole", "Emre", "Jun", "Kuromi"]) );
+console.log (whosPaying(["Jean", "Carlo", "Vesna", "Valeska", "Katherine", "Nicole", "Jesus", "Alberto", "David", "Sammuel"]) );
