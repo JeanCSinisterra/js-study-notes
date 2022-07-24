@@ -184,8 +184,11 @@ count++;
 
 // #2 Random Selection to see who will pay the Lunch
 function whosPaying(names) {
-var random = Math.floor(Math.random() * names.length);    
+//here is a variable called random that's using the random/floor math & also choosing in the length of the name array.
+var random = Math.floor(Math.random() * names.length);
+// Here the variable choose a name randomly. 
 var colegas = (names[random]);
+// here is the return of the function we are requesting.     
 return colegas + " is going to buy lunch today!";
 }
 console.log (whosPaying(["Jean", "Carlo", "Vesna", "Valeska", "Katherine", "Nicole", "Jesus", "Alberto", "David", "Sammuel"]) );
